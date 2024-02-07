@@ -1,22 +1,23 @@
-name: Docker Image CI
-
-stages:
-- name: Build and Run Docker Image
-  steps:
-  - name: Checkout Code
-    type: Git Checkout
-    configuration:
-      Repository Name: super-duper-spoon
-      Branch: main
-  - name: Build Docker Image
-    type: Shell Script
-    configuration:
-      Execution Shell: BASH
-      Script: |
-        docker build -t image .
-  - name: Run Docker Image
-    type: Shell Script
-    configuration:
-      Execution Shell: BASH
-      Script: |
-        docker run image
+pipeline:
+  name: Docker Image CI
+  
+  stages:
+  - name: Build and Run Docker Image
+    steps:
+    - name: Checkout Code
+      type: Git Checkout
+      configuration:
+        Repository Name: super-duper-spoon
+        Branch: main
+    - name: Build Docker Image
+      type: Shell Script
+      configuration:
+        Execution Shell: BASH
+        Script: |
+          docker build -t image .
+    - name: Run Docker Image
+      type: Shell Script
+      configuration:
+        Execution Shell: BASH
+        Script: |
+          docker run image
