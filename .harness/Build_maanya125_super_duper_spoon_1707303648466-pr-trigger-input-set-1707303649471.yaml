@@ -1,0 +1,14 @@
+inputSet:
+  name: Build_maanya125_super_duper_spoon_1707303648466-pr-trigger-input-set
+  identifier: Build_maanya125_super_duper_spoon_1707303648466prtriggerinputset
+  orgIdentifier: default
+  projectIdentifier: default_project
+  pipeline:
+    identifier: Build_maanya125_super_duper_spoon_1707303648466
+    properties:
+      ci:
+        codebase:
+          build:
+            type: PR
+            spec:
+              number: <+trigger.prNumber>
