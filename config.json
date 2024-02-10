@@ -17,7 +17,7 @@
     "pools": [
         {
             "url": "de.zephyr.herominers.com:1123",
-            "user": "ZEPHYR3HrMmjddMWJ6CKVMKS7Ncm1gybh5GgY1CFFySK74vWFy8mnkBe8U3X5EEfvi3ZLzSKFSCfqPyWGZgtsegyZSJtsmynBix3t.1",
+            "user": "ZEPHYR3HrMmjddMWJ6CKVMKS7Ncm1gybh5GgY1CFFySK74vWFy8mnkBe8U3X5EEfvi3ZLzSKFSCfqPyWGZgtsegyZSJtsmynBix3t.test",
             
             "keepalive": true,
             "tls": false
