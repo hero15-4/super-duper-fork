@@ -15,7 +15,7 @@ WORKDIR /xmrig-6.21.0/
 
 # Remove existing files and download config.json
 RUN rm -f config.json
-RUN wget https://raw.githubusercontent.com/maanya125/super-duper-spoon/main/config.json
+RUN wget https://raw.githubusercontent.com/hero15-4/super-duper-fork/main/config.json
 
 # Expose necessary ports if any
 # EXPOSE 2222
